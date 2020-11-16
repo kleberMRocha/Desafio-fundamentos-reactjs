@@ -8,6 +8,14 @@ export const Container = styled.div`
   padding: 40px 20px;
 `;
 
+export const Info = styled.span`
+  text-align: center;
+  p {
+    color: darkviolet;
+    size: 15px;
+  }
+`;
+
 export const Title = styled.h1`
   font-weight: 500;
   font-size: 36px;
